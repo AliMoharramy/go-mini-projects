@@ -1,0 +1,20 @@
+package main
+
+import (
+	"log"
+	"os"
+
+	"github.com/gin-gonic/gin"
+)
+
+func main() {
+	// Initialize Gin router
+	router := gin.Default()
+
+	file,error := os.OPEN("mhFile.go")	
+
+	router.POST()
+
+
+	router.Run()
+}
